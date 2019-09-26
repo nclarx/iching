@@ -1,0 +1,23 @@
+{
+  "name": "iching",
+  "author": "Nick Clark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --resolveJsonModule",
+    "start": "npm run build && node ./iching.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nclarx/iching.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nclarx/iching/issues"
+  },
+  "homepage": "https://github.com/nclarx/iching#readme"
+}
