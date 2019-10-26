@@ -1,11 +1,12 @@
-[{
+const symbols: ISymbol[] = [{
     "Symbol": "\u2630",
     "ALT Code": "ALT 9776",
     "ALT X Code": "2630 ALT X",
     "Symbol Name": "Trigram for heaven, sky, \u4e7e qi\u00e1n",
     "HTML Entity DEC": "&#9776",
     "HTML Entity HEX": "&#x2630",
-    "Unicode Code Point\n": "U+2630"
+    "Unicode Code Point\n": "U+2630",
+    ""
 }, {
     "Symbol": "\u2631",
     "ALT Code": "ALT 9777",
@@ -623,3 +624,4 @@
     "HTML Entity HEX": "&#x4DFF",
     "Unicode Code Point\n": "U+4DFF"
 }]
+

@@ -14,6 +14,13 @@ interface CoinToss {
     thirdCoin: boolean
 }
 
+interface IConsultation {
+    id: number
+    question: string
+    coinTosses: boolean[]
+    hexagrams: ISymbol[]
+  }
+
 enum LineType {
     Yin,
     Yang
