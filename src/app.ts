@@ -6,7 +6,7 @@ function listSymbols() {
   symbols.forEach((item: ISymbol) => {
     console.log(item.Symbol, item["ALT Code"])
   })
-}
+} 
 
 listSymbols()
 console.log(flipCoin())

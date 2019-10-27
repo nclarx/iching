@@ -5,8 +5,7 @@ const symbols: ISymbol[] = [{
     "Symbol Name": "Trigram for heaven, sky, \u4e7e qi\u00e1n",
     "HTML Entity DEC": "&#9776",
     "HTML Entity HEX": "&#x2630",
-    "Unicode Code Point\n": "U+2630",
-    ""
+    "Unicode Code Point\n": "U+2630"
 }, {
     "Symbol": "\u2631",
     "ALT Code": "ALT 9777",
@@ -625,3 +624,38 @@ const symbols: ISymbol[] = [{
     "Unicode Code Point\n": "U+4DFF"
 }]
 
+interface ISymbolService {
+
+
+    findTrigram(coinTosses: ICoinToss[]): string
+
+
+}
+
+
+class Trigram implements ITrigram {
+
+    bottomLine: ICoinToss[]
+    middleLine: ICoinToss[]
+    topLine: ICoinToss[]
+
+    constructor(
+        public firstToss: ICoinToss[],
+        public secondToss: ICoinToss[],
+        public thirdToss: ICoinToss[]
+    ) {
+        this.bottomLine = firstToss
+        this.middleLine = secondToss
+        this.topLine = thirdToss
+    }
+
+    createValueFromToss(tosses: ICoinToss): number {
+        tosses.reduce((prev, current) => {
+            result 
+
+        })
+    }
+
+}
+
+// TODO: method to compare three coin tosses with each trigram

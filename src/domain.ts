@@ -8,11 +8,20 @@ interface ISymbol {
     ["Unicode Code Point\n"]: string
 }
 
-interface CoinToss {
-    firstCoin: boolean
-    secondCoin: boolean
-    thirdCoin: boolean
+interface ICoinToss {
+    coinTossResult: boolean[]
+    
 }
+
+interface ITrigram {
+    bottomLine: ICoinToss[]
+    middleLine: ICoinToss[]
+    topLine: ICoinToss[]
+
+
+}
+
+
 
 interface IConsultation {
     id: number
